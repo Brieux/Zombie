@@ -11,7 +11,13 @@ int main()
     Zombie z2(50,4,"Z2");
     z2.setAtk(15);
     z2.showInfo();
-    Bomber b1(50,10, "B1");
-    b1.showInfo();
+
+
+
+
+
+    /*fin*/
+    cout << endl;
+    cout << endl;
     return 0;
 }

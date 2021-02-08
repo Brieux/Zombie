@@ -15,3 +15,19 @@
 	<string>
 	"Zombie.h"
 
+1612802659 source:c:\users\render\desktop\zombie\zombie\usineazombie\main.cpp
+	<iostream>
+	"Bomber.h"
+
+1612802680 c:\users\render\desktop\zombie\zombie\usineazombie\include\bomber.h
+	<string>
+	"Zombie.h"
+
+1612802031 c:\users\render\desktop\zombie\zombie\usineazombie\include\zombie.h
+	<string>
+	<iostream>
+	<ctime>
+
+1612802261 source:c:\users\render\desktop\zombie\zombie\usineazombie\src\zombie.cpp
+	"Zombie.h"
+
