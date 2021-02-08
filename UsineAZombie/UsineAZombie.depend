@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1612802659 source:c:\users\render\desktop\zombie\usineazombie\main.cpp
+	<iostream>
+	"Bomber.h"
+
+1612802261 source:c:\users\render\desktop\zombie\usineazombie\src\zombie.cpp
+	"Zombie.h"
+
+1612802031 c:\users\render\desktop\zombie\usineazombie\include\zombie.h
+	<string>
+	<iostream>
+	<ctime>
+
+1612802680 c:\users\render\desktop\zombie\usineazombie\include\bomber.h
+	<string>
+	"Zombie.h"
+
