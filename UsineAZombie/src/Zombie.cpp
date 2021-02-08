@@ -2,6 +2,14 @@
 
 Zombie::Zombie(int p, int a, string n)
 {
+    if (a > 10){
+        cout <<"Erreur de puissance" << endl;
+        this->~Zombie();
+    }
+    if (p > 100){
+        cout <<"Erreur de resistance" << endl;
+        this->~Zombie();
+    }
     pv = p;
     atk = a;
     name = n;
@@ -25,10 +33,7 @@ string Zombie::getName(){
 }
 
 void Zombie::setPv(int p){
-    if (p > 100){
-        cout <<"Erreur de resistance" << endl;
-        this->~Zombie();
-    }
+
     if (pv < 0){
         p = 1;
     }
@@ -38,10 +43,7 @@ void Zombie::setPv(int p){
 }
 
 void Zombie::setAtk(int a){
-    if (a > 10){
-        cout <<"Erreur de puissance" << endl;
-        this->~Zombie();
-    }
+
     if (a < 0){
         atk = 1;
     }
