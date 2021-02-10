@@ -17,6 +17,7 @@ class Tank : public Zombie
         void setArmureTank(int arm);
         void showInfoTank();
         void setPv(int p);
+        void debuff();
 
 };
 

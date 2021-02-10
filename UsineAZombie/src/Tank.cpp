@@ -34,6 +34,11 @@ void Tank::setPv(int p){
     }
 }
 
+void Tank::debuff(){
+    setAtk(getAtk()/2);
+    arm = 0;
+}
+
 void Tank::charge(Zombie* cible){
     cible->setPv(cible->getPv() - getArm());
 }

@@ -15,21 +15,22 @@
 	<string>
 	"Zombie.h"
 
-1612956166 source:c:\users\render\desktop\zombie\zombie\usineazombie\main.cpp
+1612957464 source:c:\users\render\desktop\zombie\zombie\usineazombie\main.cpp
 	<iostream>
 	"Bomber.h"
 	"Rapace.h"
 	"Tank.h"
+	"Mage.h"
 
 1612953814 c:\users\render\desktop\zombie\zombie\usineazombie\include\bomber.h
 	"Zombie.h"
 
-1612956434 c:\users\render\desktop\zombie\zombie\usineazombie\include\zombie.h
+1612957127 c:\users\render\desktop\zombie\zombie\usineazombie\include\zombie.h
 	<string>
 	<iostream>
 	<ctime>
 
-1612956458 source:c:\users\render\desktop\zombie\zombie\usineazombie\src\zombie.cpp
+1612957160 source:c:\users\render\desktop\zombie\zombie\usineazombie\src\zombie.cpp
 	"Zombie.h"
 
 1612953821 source:c:\users\render\desktop\zombie\zombie\usineazombie\src\bomber.cpp
@@ -41,9 +42,15 @@
 1612954000 c:\users\render\desktop\zombie\zombie\usineazombie\include\rapace.h
 	"Zombie.h"
 
-1612956470 source:c:\users\render\desktop\zombie\zombie\usineazombie\src\tank.cpp
+1612957259 source:c:\users\render\desktop\zombie\zombie\usineazombie\src\tank.cpp
 	"Tank.h"
 
-1612955628 c:\users\render\desktop\zombie\zombie\usineazombie\include\tank.h
+1612957172 c:\users\render\desktop\zombie\zombie\usineazombie\include\tank.h
+	"Zombie.h"
+
+1612957219 source:c:\users\render\desktop\zombie\zombie\usineazombie\src\mage.cpp
+	"Mage.h"
+
+1612956833 c:\users\render\desktop\zombie\zombie\usineazombie\include\mage.h
 	"Zombie.h"
 

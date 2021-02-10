@@ -25,6 +25,7 @@ class Zombie
         //Methodes
         void attaque(Zombie *cible);
         void showInfo();
+        virtual void debuff();
 
     private:
         int pv = 0;

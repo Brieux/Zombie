@@ -2,6 +2,7 @@
 #include "Bomber.h"
 #include "Rapace.h"
 #include "Tank.h"
+#include "Mage.h"
 
 
 using namespace std;
@@ -10,8 +11,8 @@ int main()
 {
     Zombie z1(10,5,"Z1");
     z1.showInfo();
-    Zombie z2(200,4,"Z2");
-    z2.setAtk(15);
+    //Zombie z2(200,4,"Z2");
+    //z2.setAtk(15);
     //z2.showInfo();
 
     Bomber b1(200,15,"B1");
@@ -31,14 +32,19 @@ int main()
     r1.showInfo();*/
 
     Tank t1(100,10,"T1");
-    t1.showInfoTank();
+    //t1.showInfoTank();
     b1.explosion(&t1);
     t1.showInfoTank();
-    Bomber b2(200,15,"B2");
+    /*Bomber b2(200,15,"B2");
     b2.setAtkBomber(5);
-    b2.explosion(&t1);
-    t1.showInfoTank();
+    b2.explosion(&t1);*/
 
+    Mage m1(100,10,"M1");
+    //m1.showInfo();
+    m1.sortilege(&z1);
+    z1.showInfo();
+    m1.sortilege(&t1);
+    t1.showInfoTank();
 
     /*fin*/
     cout << endl;

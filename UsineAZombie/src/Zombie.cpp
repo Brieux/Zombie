@@ -74,3 +74,7 @@ void Zombie::attaque(Zombie * cible){
         cible->~Zombie();
     }
 }
+
+void Zombie::debuff(){
+    setAtk(atk / 2);
+}
