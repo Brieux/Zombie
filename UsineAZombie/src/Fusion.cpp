@@ -12,14 +12,14 @@ Fusion::~Fusion()
 
 }
 
-void Fusion::absorption(Zombie* cible, string cible){
+void Fusion::absorption(Zombie* cible, string target){
     if ((getPv() > cible->getPv() )|| (getAtk() > cible ->getAtk())){
         setPv(getPv() + cible->getPv());
         setAtk(getAtk() + cible->getAtk());
-        if (cible =="tank"){
+        if (target =="Tank"){
             setPv(getPv()+cible->getArm());
         }
-        if (cible =="Bomber"){
+        if (target =="Bomber"){
             cible->~Zombie();
             ~Zombie;
         }
