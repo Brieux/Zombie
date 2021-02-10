@@ -8,6 +8,7 @@ class Zombie
 {
     public:
         //Constructeur & Destructeur
+        Zombie();
         Zombie(int pv, int atk, string name);
         ~Zombie();
 

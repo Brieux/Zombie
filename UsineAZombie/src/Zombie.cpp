@@ -1,4 +1,9 @@
 #include "Zombie.h"
+Zombie::Zombie(){
+    atk = 10;
+    pv = 5;
+    name = "None";
+}
 
 Zombie::Zombie(int p, int a, string n)
 {

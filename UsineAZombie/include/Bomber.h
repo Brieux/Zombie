@@ -1,18 +1,18 @@
 #ifndef BOMBER_H
 #define BOMBER_H
 
-#pragma once
-#include <string>
 #include "Zombie.h"
-using namespace std;
+
+
 class Bomber : public Zombie
 {
-    public:
-        Bomber(int p,int a, string name);
+    public :
+        Bomber(int pv, int atk, string n);
+        ~Bomber();
+        void explosion(Zombie* cible);
 
-    protected:
+        void setAtkBomber(int a);
 
-    private:
 };
 
-#endif // BOMBER_H
+#endif
