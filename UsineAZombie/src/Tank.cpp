@@ -21,7 +21,6 @@ int Tank::getArm(){
 }
 
 void Tank::setPv(int p){
-    cout << "le tank tank" << endl;
     int compteur = getPv() - p;
     while (compteur > 0){
         if (arm > 0) {

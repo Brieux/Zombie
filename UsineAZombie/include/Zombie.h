@@ -14,7 +14,7 @@ class Zombie
 
         //Getter & Setter
         int getPv();
-        void setPv(int p);
+        virtual void setPv(int p);
 
         int getAtk();
         void setAtk(int a);
